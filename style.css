@@ -1,4 +1,4 @@
-/* Remove default browser styles */
+Remove default browser styles
 * {
     margin: 0;
     padding: 0;
@@ -41,3 +41,42 @@ form button:hover {
     background: #d88771;
     color: white;
 }
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin:  0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Push buttons to the end */
+.todo-item {
+    flex: 1;
+}
+
+.delete-btn, .complete-btn {
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: rgb(73, 204, 73);
+}
+
