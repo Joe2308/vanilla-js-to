@@ -66,6 +66,7 @@ form button:hover {
 /* Push buttons to the end */
 .todo-item {
     flex: 1;
+    padding: 0rem 0.5rem;
 }
 
 .delete-btn, .complete-btn {
@@ -78,5 +79,11 @@ form button:hover {
 
 .complete-btn {
     background: rgb(73, 204, 73);
+}
+
+/* prevent clicking on icons */
+.fa-trash,
+.fa-check {
+    pointer-events: none;
 }
 
